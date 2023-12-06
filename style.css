@@ -1,0 +1,14 @@
+.contenitoreLogo{
+    display: flex;
+    justify-content: center;
+}
+
+.link-navbar{
+    text-decoration: none;
+    color: gray;
+}
+
+.posizione-link{
+    /* margin-right: 50 px; */
+    /* margin-left: 50 px; */
+}
