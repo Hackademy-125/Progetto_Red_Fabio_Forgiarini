@@ -1,3 +1,17 @@
+/* font-family: 'Nova Square', sans-serif;
+font-family: 'Nova Square', sans-serif;
+font-family: 'Rajdhani', sans-serif; */
+/* Color: darkred; 
+Color: #C67F7F;
+Color: #ececec; */
+
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Nova Square', sans-serif;
+}
 .contenitoreLogo{
     display: flex;
     justify-content: center;
@@ -8,7 +22,21 @@
     color: gray;
 }
 
-.posizione-link{
-    /* margin-right: 50 px; */
-    /* margin-left: 50 px; */
+.ImmagineBackgroundHeader{
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0)), url(./media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.TitoloHeader{
+    Color: darkred;
+    font-size: 50px;
+    letter-spacing: 80px;
+}
+
+.montagne-bianche{
+    position: absolute;
+    top: 100px;
+
 }
