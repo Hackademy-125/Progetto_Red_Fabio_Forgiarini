@@ -36,8 +36,9 @@ h1,h2,h3,h4{
 }
 
 .montagne-bianche{
+    
     position: absolute;
-    bottom: 0;
+    top: -90vh;
 
 }
 
@@ -66,6 +67,8 @@ h1,h2,h3,h4{
 .backgroundbottone{
     height: 50vh;
     background-image: url(./media/trees2.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .bottone{
