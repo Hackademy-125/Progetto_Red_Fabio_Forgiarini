@@ -129,3 +129,32 @@ h1,h2,h3,h4{
     padding-left: 5%;
     padding-right: 5%;
 }
+
+.background-bianco{
+    background-color: white;
+    padding-top: 3%;
+}
+
+.bordo{
+    border-left: 2px solid darkred;
+}
+
+.circoletto{
+    height: 15px;
+    width: 15px;
+    border: 1px solid darkred;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: -8px;
+}
+
+.tre-alberi{
+    background-color: yellow;
+    position: absolute;
+    top: -50px;
+}
+
+.immagini-team{
+    height: 10%;
+}
