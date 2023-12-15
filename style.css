@@ -61,7 +61,8 @@ h1,h2,h3,h4{
 .montagne-bianche{
     
     position: absolute;
-    top: -90vh;
+    /* top: -90vh; */
+    bottom: 0;
     
 
 }
@@ -150,11 +151,38 @@ h1,h2,h3,h4{
 }
 
 .tre-alberi{
-    background-color: yellow;
     position: absolute;
-    top: -50px;
+    bottom: 0;
+    right: 0;
 }
 
-.immagini-team{
-    height: 10%;
+/* .posizione-tre-alberi{
+    
+    position: absolute;
+    top: -470px;
+    right: 0%;
+} */
+
+.Immagine-team{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid darkred;
+    padding: 10px;
+}
+
+.immagine-benefit{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 3px solid var(--color-tertiary);
+    padding: 10px;
+}
+
+.alberi-rossi{
+    height: 62vh;
+    width: 100%;
+    background-image: url(./media/other.png);
+    background-size: cover;
+
 }
