@@ -186,3 +186,7 @@ h1,h2,h3,h4{
     background-size: cover;
 
 }
+
+.background-footer{
+    background-color: darkred;
+}
